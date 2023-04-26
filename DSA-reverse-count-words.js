@@ -12,6 +12,7 @@ function countWords(){
     return counter
   }
   console.log(countWords());
+
   
   //reverse words in a sentence
   function reverseWords(words){
@@ -23,7 +24,7 @@ function countWords(){
         res.push(words.substr(i, wordLength +1 ));
         wordLength = 0;
      }else{
-        wordLength++
+        wordLength++;
      }
    }
    return res.join(' ');
